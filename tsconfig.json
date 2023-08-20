@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "types":["vite/client"]
+  }
+}
